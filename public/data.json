@@ -1,0 +1,56 @@
+[
+    {
+        "img": "./images/laptop1.png",
+        "id": 1,
+        "name": "lenovo vs",
+        "price": 100080
+    },
+    {
+        "img": "./images/laptop2.png",
+        "id": 2,
+        "name": "lenovo pe",
+        "price": 12000
+    },
+    {
+        "img": "./images/laptop3.png",
+        "id": 3,
+        "name": "lenovo so",
+        "price": 108000
+    },
+    {
+        "img": "./images/laptop4.png",
+        "id": 4,
+        "name": "lenovo sh",
+        "price": 14000
+    },
+    {
+        "img": "./images/laptop5.png",
+        "id": 5,
+        "name": "lenovo eww",
+        "price": 18000
+    },
+    {
+        "img": "./images/laptop6.png",
+        "id": 6,
+        "name": "lenovo super",
+        "price": 150000
+    },
+    {
+        "img": "./images/laptop7.png",
+        "id": 7,
+        "name": "lenovo sw",
+        "price": 250000
+    },
+    {
+        "img": "./images/laptop8.png",
+        "id": 8,
+        "name": "lenovo ew",
+        "price": 350000
+    },
+    {
+        "img": "./images/laptop9.png",
+        "id": 9,
+        "name": "lenovo lw",
+        "price": 450000
+    }
+]

@@ -1,0 +1,60 @@
+.Header{ 
+    background-color:rgb(108, 202, 197) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Header h1{
+    color: rgb(238, 16, 72);
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-style: oblique;
+    font-weight: 400;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 25px;
+    color: rgb(11, 11, 37);
+    cursor: pointer;
+}
+.navbar li:hover{
+    color: rgb(243, 73, 30);
+}
+
+@media screen and (max-width:700px) {
+     body{
+       background: rgb(23, 144, 160);
+    }
+
+    .Header{ 
+        background-color:rgb(209, 92, 25) ;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .Header h1{
+        color: rgb(49, 16, 238);
+        font-size: 20px;
+        font-family: arial black;
+        font-weight:bold;
+    }
+
+    .navbar li{
+        list-style: none;
+        font-size: 13px;
+        font-weight: bold;
+        margin-right: 6px;
+        color: rgb(26, 3, 90);
+    }
+
+    .navbar li:hover{
+        color: rgb(91, 8, 245);
+    }
+}

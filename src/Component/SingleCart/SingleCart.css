@@ -1,0 +1,105 @@
+.SingleCart-container{
+    width: 270px;
+    height: 450px;
+    border: 2px solid rgb(226, 207, 204);
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(206, 198, 198);
+    position: relative;
+    margin-bottom: 25px;
+    margin-left: 15px;
+   
+}
+.SingleCart-container img{
+width:270px;
+margin-top:12px;
+margin-bottom:10px;
+border-bottom: 1px solid silver;
+
+}
+
+.informs h4{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(3, 3, 88);
+    text-transform:uppercase;
+}
+.informs h5{
+   text-align: center;
+    font-size: 15px;
+    color: rgb(3, 3, 88);
+    text-transform:capitalize;
+}
+
+.btn-style{
+    width: 100%;
+    padding: 7px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    border: none;
+    background-color: coral;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-style p{
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:700px){
+
+    .SingleCart-container{
+        width: 270px;
+        margin-left: 35px;
+        height: 450px;
+        border: 2px solid rgb(226, 207, 204);
+        background-color: antiquewhite;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgb(206, 198, 198);
+        position: relative;
+
+       
+    } 
+
+    .SingleCart-container img{
+        width:270px;
+       border-bottom: 1px solid silver;
+       
+        }
+        
+        .informs h4{
+            text-align: center;
+            font-size: 20px;
+            color: rgb(3, 3, 88);
+            text-transform:uppercase;
+        }
+        .informs h5{
+           text-align: center;
+            font-size: 15px;
+            color: rgb(3, 3, 88);
+            text-transform:capitalize;
+        }
+        
+        .btn-style{
+            width: 100%;
+            padding: 7px;
+            position: absolute;
+            bottom: 0;
+            border-radius: 5px;
+            border: none;
+            background-color: coral;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .btn-style p{
+            margin-right: 10px;
+        }
+        
+}
